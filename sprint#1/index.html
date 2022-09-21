@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Primary Meta Tags -->
+    <title>Alura-ONE Sprint #1: Encriptador de texto</title>
+    <meta name="title" content="Alura-ONE Sprint #1: Encriptador de texto">
+    <meta name="description"
+          content="Este proyecto integra la parte práctica de la formación académica Principiante en programación. Impartido por Oracle Next Education y Alura Cursos.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Alura-ONE Sprint #1: Encriptador de texto">
+    <meta property="og:description"
+          content="Este proyecto integra la parte práctica de la formación académica Principiante en programación. Impartido por Oracle Next Education y Alura Cursos.">
+    <meta property="og:image" content="https://freeimage.host/i/iDtJ3P">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Alura-ONE Sprint #1: Encriptador de texto">
+    <meta property="twitter:description"
+          content="Este proyecto integra la parte práctica de la formación académica Principiante en programación. Impartido por Oracle Next Education y Alura Cursos.">
+    <meta property="twitter:image" content="https://freeimage.host/i/iDtJ3P">
+
+
+    <title>Sprint #1 Encriptador</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@400;500;600&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+<main class="root-container">
+
+    <header class="header-container">
+        <div class="header-logo">
+            <a href="https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript" target="_blank">
+                <img class="image-alura-challenges" src="images/alura-challenges.svg" alt="Alura Challenges">
+            </a>
+        </div>
+        <div class="title-container">
+            <h1 class="app-title">Encriptador de texto</h1>
+            <img class="title-image" src="images/paper_plane.png" alt="Avioncito de papel">
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="form-container">
+
+            <form class="input-form" action="">
+                <label for="text-input">
+                    <textarea class="text-input" id="text-input" name="text-input" rows="5"
+                              placeholder="Ingrese su mensaje aquí" spellcheck="false"></textarea>
+                </label>
+
+                <fieldset class="input-conditions-alert">
+                    <img class="image-alert" src="images/exclamation.png" alt="Alerta">
+                    <p class="input-condition-text">Sólo letras minúsculas y sin acentos</p>
+                </fieldset>
+
+                <fieldset class="input-button-group">
+                    <button class="button" id="button-encode" type="submit">Encriptar</button>
+                    <button class="button" id="button-decode" type="submit">Desencriptar</button>
+                </fieldset>
+            </form>
+
+            <form class="output-form" action="">
+                <label for="text-output">
+                    <textarea class="text-output" id="text-output" name="text-output" readonly="readonly"
+                              placeholder="Ningún mensaje encontrado" spellcheck="false"></textarea>
+                </label>
+
+                <fieldset class="output-button-group">
+                    <button class="button" id="button-copy" type="submit">Copiar</button>
+
+                    <div class="reset-option" id="button-clean-all">
+                        <img class="reset-icon" src="images/reset_icon.svg" alt="Reset">
+                        <p class="reset-text">Limpiar</p>
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="character-section">
+            <img class="image-detective" src="images/detective.png" alt="El detective busca una pista">
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <a href="https://www.alura.com.br/oracle-next-education" target="_blank">
+            <img class="image-oracle-alura-logo" src="images/oracle-alura-logo.svg" alt="Logo de Oracle + Alura">
+        </a>
+        <p class="copyright">2022 &copy;Juan Fabio Rey</p>
+    </footer>
+</main>
+
+<img class="about-me-button" id="button-about-me" src="images/Question_Mark.svg" alt="About me...">
+
+<div class="custom-alert-container">
+    <dialog class="custom-alert-bubble close-custom-alert">
+        <p class="custom-alert-text">Aquí se encuentra el mensaje de la alerta personalizada</p>
+        <button class="button" id="button-close" type="submit">Cerrar</button>
+    </dialog>
+</div>
+
+<div class="about-me-container">
+    <dialog class="about-me-bubble close-about-me">
+        <h1>¡Bienvenidos a mi encriptador de texto!</h1>
+        <div class="about-me-description">
+
+            <p>¡Hola! mi nombre es Juan Fabio Rey, soy estudiante del programa educativo ONE impartido por
+                Oracle en conjunto Alura Cursos. <br>Este proyecto forma parte de una serie de desafíos requeridos para
+                aprobar la carrera de Full-Stack Developer.  y el objetivo del mismo es introducir un texto y devolver
+                un mensaje encriptado siguiendo una pauta preestablecida en los requisitos del proyecto.</p>
+            <p><br>A continuación dejo mis enlaces:<br></p>
+            <div class="social-links-container">
+                <a href="https://github.com/juanfabiorey/alura-challenges" class="github" target="_blank">
+                    <img src="images/octicon.svg" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/juanfabiorey/" class="linkedin" target="_blank">
+                    <img src="images/linkedicon.svg" alt="Linkedin"></a>
+                <a href="mailto:juanfabiorey@outlook.com" class="feedback">
+                    <img src="images/emailicon.svg" alt="e-mail" class="email"></a>
+            </div>
+        </div>
+        <button class="button" id="button-close-about-me" type="submit">Cerrar</button>
+    </dialog>
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
