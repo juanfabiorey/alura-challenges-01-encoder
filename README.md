@@ -1,7 +1,8 @@
 # Challenge ONE | Lógica de programación - Encriptador de texto
 
-<p align="center" >
-     <img width="300" heigth="200" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png">
+<p style= "text-align: justify">
+<img width="278" heigth="200" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png" title="Modelo tentativo" alt="Modelo tentativo">
+<img width="300" heigth="200" src="https://iili.io/ib4Xvj.png" title="Interpretación personal" alt="Interpretación personal">
 </p>
 
 ## Descripción del desafío
@@ -27,31 +28,28 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
   versión original.
 
 _**Por ejemplo:**_
-
-* "gato" => "gaitober"
-* gaitober" => "gato"
+```
+"gato" => "gaitober"
+"gaitober" => "gato"
+```
 
 La página debe tener campos para
 inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 El resultado debe ser mostrado en la pantalla.
 
-**Extras:**
+### Extras:
 
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma
   funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-**Pasos finales:**
-- Subir su interpretación del desafío a un repositorio en Github.
-- Publicar en Github Pages con el hashtag _#challengeonecodificador3_.
+### Pasos finales:
+- Subir la interpretación del desafío a un repositorio en Github.
+- Publicar en _Github Pages_ con el hashtag _#challengeonecodificador3_.
 - Compartir en Linkedin y en sus redes sociales, sin olvidar de etiquetar a Alura Latam y a Oracle.
 
 ---
 
 # Interpretación personal del desafío
-<p align="center">
-  <img width="300" heigth="200" src="https://iili.io/ib4Xvj.png">
-</p>
-
 
 Decidí representar al encriptador con un workflow vertical. Agregué mayor cantidad de elementos visuales para mejorar la visibilidad y la navegabilidad. Al tratarse de mi primer diseño utilizando
 HTML5, a medida que se me ocurrían nuevas funcionalidades fuí adquiriendo conocimientos externos al curso para poder
@@ -79,25 +77,29 @@ Pueden chequear el _changelog_ de más abajo para enterarse de las últimas mejo
 * [Github del desafío](https://github.com/alura-challenges/challenge-one-encriptador-latam)
 
 **Feedback:** (errores, recomendaciones, comentarios, ánimos etc.)
-* [Mi correo electrónico](mailto:juanfabiorey@outlook.com)
+* [Enviar correo electrónico...](mailto:juanfabiorey@outlook.com)
 
 
 ## Changelog
 
 ---
 
-* ### Preview Release (21-09-2022): Release inicial del sitio (versión sólo para 1920 x 1080px)
+### 0.0.0 (2022-09-22): Minor Updates
+- **improvement:** ligeros cambios en el readme
+- **bug fix:** se corrigió el enlace de la meta-imagen del sitio
+- **added:** compatibilidad con monitores de 1366 x 720px
 
 
-MEJORAS PENDIENTES:
+### 0.0.0 (2022-09-21): Preview Release (versión sólo para 1920 x 1080px)
 
-- Mejorar la representación en monitores de 1366 x 720p
-- Codificación de las CSS "@media queries" para que sea FULL RESPONSIVE
-- Dirigir el foco hacia las alertas emergentes
-- Agregar la tecla ENTER para cerrar las alertas
-- Añadir verificación "El texto ya se encuentra encriptado / desencriptado"
-- Simplificar el código en general
-- Optimizar el script y añadir
-- Vectorizar la imagen de la caricatura
-- Animar el ojo de la caricatura
+
+- **request:** compatibilidad con monitores de 1366 x 720p
+- **request:** Codificación de las CSS "@media queries" para que sea FULL RESPONSIVE
+- **request:** Dirigir el foco hacia las alertas emergentes
+- **request:** Agregar la tecla ENTER para cerrar las alertas
+- **request:** Añadir verificación "El texto ya se encuentra encriptado / desencriptado"
+- **request:** Simplificar el código en general
+- **request:** Optimizar el script y añadir
+- **request:** Vectorizar la imagen de la caricatura
+- **request:** Animar el ojo de la caricatura
 

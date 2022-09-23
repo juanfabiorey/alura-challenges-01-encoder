@@ -79,7 +79,6 @@ body {
 }
 
 .form-container {
-    width: 924px;
     height: 100%;
     padding-left: 40px;
 }
@@ -269,7 +268,7 @@ textarea {
 }
 
 .image-oracle-alura-logo {
-    width: 84%;
+    width: 100%;
 }
 
 .copyright {
@@ -309,6 +308,8 @@ textarea {
 /* CUSTOM ALERTS */
 .custom-alert-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     visibility: hidden;
     opacity: 0;
@@ -319,9 +320,6 @@ textarea {
     left: 0;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(15px) grayscale(75%);
-
-    justify-content: center;
-    align-items: center;
 }
 
 .custom-alert-bubble {
@@ -359,6 +357,8 @@ textarea {
 /* ABOUT ME  */
 .about-me-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     visibility: hidden;
     opacity: 0;
@@ -369,9 +369,6 @@ textarea {
     left: 0;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(15px) grayscale(75%);
-
-    justify-content: center;
-    align-items: center;
 }
 
 .about-me-bubble {
@@ -393,7 +390,6 @@ textarea {
 }
 
 .about-me-description {
-    /*padding-top: 1%;*/
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -418,4 +414,137 @@ textarea {
 
 #button-close-about-me {
     background-color: var(--dark-orange);
+}
+
+/* ------------------------------------------------------- */
+
+@media only screen and (min-width: 960px) and (max-width: 1366px){
+
+    .root-container {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .header-logo {
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .header-logo img {
+        width: 75%;
+    }
+
+    .title-container {
+        padding-top: 16px;
+        padding-right: 40px;
+    }
+
+    .app-title {
+        font-size: 30px;
+        padding-right: 12px;
+    }
+
+    .title-image {
+        width: 50px;
+        height: 39px;
+    }
+
+
+    .form-container {
+        padding-left: 0;
+    }
+
+    .input-form, .output-form {
+        padding-top: 16px;
+        padding-left: 55px;
+    }
+
+    .text-input, .text-output {
+        width: 560px;
+        height: 60%;
+        padding: 24px;
+        border-radius: 14px;
+        font-size: 14px;
+    }
+
+    .input-conditions-alert {
+        padding: 5px 0 5px 30px;
+    }
+
+    .input-condition-icon {
+        width: 14px;
+    }
+
+    .input-condition-text {
+        padding-left: 9px;
+        font-size: 10px;
+        cursor: default;
+    }
+
+    .button {
+        width: 160px;
+        height: 32px;
+        border-radius: 10px;
+        font-size: 12px;
+        box-shadow: 3px 3px 9px 0 rgba(3, 2, 0, 0.25);
+    }
+
+    .reset-option {
+        font-size: 12px;
+    }
+
+    .footer-container {
+        background-size: 80%;
+        padding-top: 25px;
+    }
+
+    .image-oracle-alura-logo {
+        width: 84%;
+    }
+
+    .copyright {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .about-me-button {
+        position: fixed;
+        width: 2%;
+        min-width: 48px;
+        right: 1.8%;
+        bottom: 2%;
+    }
+
+    .custom-alert-bubble {
+        width: 25%;
+        height: 23%;
+    }
+
+    .custom-alert-text {
+        font-size: 90%;
+    }
+
+    .about-me-bubble {
+        width: 45%;
+    }
+    .about-me-bubble h1 {
+        font-size: 22px;
+    }
+
+    .about-me-description {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .social-links-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github, .linkedin,  .email {
+        padding: 20px 7px 7px;
+        transform: scale(.7);
+    }
 }
