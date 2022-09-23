@@ -32,10 +32,6 @@ window.onload = () => {
     input.focus();
 }
 
-window.ontransitionend = () => {
-    input.focus();
-}
-
 allowedInput();
 
 
@@ -91,6 +87,17 @@ buttonClean.onclick = (event) => {
 }
 
 
+// *** CLOSE ALERT BUTTON ***
+buttonClose.onclick = (event) => {
+    event.preventDefault();
+    closeCustomAlert();
+
+    window.ontransitionend = () => {
+        input.focus();
+    }
+}
+
+
 // *** ABOUT ME CTA ***
 buttonAboutMe.onclick = (event) => {
     event.preventDefault();
@@ -100,14 +107,13 @@ buttonAboutMe.onclick = (event) => {
 buttonCloseAboutMe.onclick = (event) => {
     event.preventDefault();
     closeAboutMe();
+
+    window.ontransitionend = () => {
+        input.focus();
+    }
 }
 
 
-// *** CLOSE ALERT BUTTON ***
-buttonClose.onclick = (event) => {
-    event.preventDefault();
-    closeCustomAlert();
-}
 
 
 // *** ENCODE FUNCTION
@@ -155,6 +161,12 @@ function showCustomAlert(message) {
     alertContainer.style.visibility = "visible";
     alertBubble.classList.toggle("close-custom-alert");
     alertText.textContent =`${message}`;
+
+    if (alertContainer.style.visibility === "visible") {
+        window.ontransitionend = () => {
+            buttonClose.focus();
+        }
+    }
 }
 
 function closeCustomAlert() {
@@ -167,11 +179,17 @@ function closeCustomAlert() {
 }
 
 
-// *** ABOUT ME ***
+// *** ABOUT ME SPLASH ***
 function showAboutMe() {
     aboutMeContainer.style.opacity = "1";
     aboutMeContainer.style.visibility = "visible";
     aboutMeBubble.classList.toggle("close-about-me");
+
+    if (aboutMeContainer.style.visibility === "visible") {
+        window.ontransitionend = () => {
+            buttonCloseAboutMe.focus();
+        }
+    }
 }
 
 function closeAboutMe() {
@@ -189,8 +207,8 @@ function allowedInput() {
     input.addEventListener("keypress", function (event) {
         let capturedKeyCode = (event.keyCode ? event.keyCode : event.which);
 
-        if (capturedKeyCode > 47 && capturedKeyCode < 65 ||
-            capturedKeyCode > 64 && capturedKeyCode < 91 ||
+        if ((capturedKeyCode > 47 && capturedKeyCode < 65) ||
+            (capturedKeyCode > 64 && capturedKeyCode < 91) ||
             capturedKeyCode === 209 ||
             capturedKeyCode === 255 ||
             capturedKeyCode === 233 ||

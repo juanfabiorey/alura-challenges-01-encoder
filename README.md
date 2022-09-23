@@ -1,24 +1,24 @@
 # Challenge ONE | Lógica de programación - Encriptador de texto
 
-<p style= "text-align: justify">
-<img width="278" heigth="200" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png" title="Modelo tentativo" alt="Modelo tentativo">
-<img width="300" heigth="200" src="https://iili.io/ib4Xvj.png" title="Interpretación personal" alt="Interpretación personal">
-</p>
+| [Visitar propuesta de Alura...](https://github.com/aluralatamprofes/One-Encriptador-Grupo3)                                                                                   | [Visitar mi propuesta...](https://juanfabiorey.github.io/alura-challenges-encoder/)                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| <img width="324" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png" title="Modelo tentativo" alt="Modelo tentativo"> | <img width="350"  src="https://iili.io/ib4Xvj.png" title="Interpretación personal" alt="Interpretación personal"> |
 
 ## Descripción del desafío
 
 #### ¡Bienvenidos y Bienvenidas a nuestro primer desafío!
 
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes
+Vamos a crear una aplicación que encripta textos, así podrás intercambiar mensajes
 secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
-
-* La letra _"e"_ es convertida para _"enter"_
-* La letra _"i"_ es convertida para _"imes"_
-* La letra _"a"_ es convertida para _"ai"_
-* La letra _"o"_ es convertida para _"ober"_
-* La letra _"u"_ es convertida para _"ufat"_
+► _Las "llaves" de encriptación que utilizaremos son las siguientes:_
+```
+● La letra "e" es convertida para "enter"
+● La letra "i" es convertida para "imes"
+● La letra "a" es convertida para "ai"
+● La letra "o" es convertida para "ober"
+● La letra "u" es convertida para "ufat"
+```
 
 ### Requisitos:
 
@@ -27,7 +27,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 * Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su
   versión original.
 
-_**Por ejemplo:**_
+► _Por ejemplo:_
 ```
 "gato" => "gaitober"
 "gaitober" => "gato"
@@ -43,9 +43,9 @@ El resultado debe ser mostrado en la pantalla.
   funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
 ### Pasos finales:
-- Subir la interpretación del desafío a un repositorio en Github.
-- Publicar en _Github Pages_ con el hashtag _#challengeonecodificador3_.
-- Compartir en Linkedin y en sus redes sociales, sin olvidar de etiquetar a Alura Latam y a Oracle.
+- Subir el desafío a un repositorio en Github.
+- Publicar en _Github Pages_ con el hashtag _#challengeonecodificador3_, y [completar el formulario](https://lp.alura.com.br/alura-latam-lp-entrega-de-challenge-one-esp) para obtener la insignia.
+- Compartir en Linkedin y en redes sociales, sin olvidar de etiquetar a Alura Latam y a Oracle.
 
 ---
 
@@ -53,7 +53,7 @@ El resultado debe ser mostrado en la pantalla.
 
 Decidí representar al encriptador con un workflow vertical. Agregué mayor cantidad de elementos visuales para mejorar la visibilidad y la navegabilidad. Al tratarse de mi primer diseño utilizando
 HTML5, a medida que se me ocurrían nuevas funcionalidades fuí adquiriendo conocimientos externos al curso para poder
-representar mis ideas. 
+representar mis ideas.
 
 Estoy muy conforme con el resultado y todo lo que he aprendido. Seguiré ampliando sus funcionalidades y corrigiendo errores sin alejarme demasiado del concepto original.
 
@@ -71,7 +71,7 @@ Pueden chequear el _changelog_ de más abajo para enterarse de las últimas mejo
 * [Recursos gratuitos en línea]()
 
 **Enlaces:**
-* [Github Pages]() (próximamente)
+* [Github Pages](https://juanfabiorey.github.io/alura-challenges-encoder/)
 * [Mi perfil de LinkedIn](https://www.linkedin.com/in/juanfabiorey/)
 * [Página del dasafío](https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript)
 * [Github del desafío](https://github.com/alura-challenges/challenge-one-encriptador-latam)
@@ -84,10 +84,15 @@ Pueden chequear el _changelog_ de más abajo para enterarse de las últimas mejo
 
 ---
 
-### 0.0.0 (2022-09-22): Minor Updates
+### 0.0.2 (2022-09-23): Minor Changes
+- **improvement:** ligeros cambios en el readme
+- **bug fix:** ahora el foco se dirige al botón 'cerrar' de las alertas emergentes
+
+
+### 0.0.1 (2022-09-22): Minor Changes
 - **improvement:** ligeros cambios en el readme
 - **bug fix:** se corrigió el enlace de la meta-imagen del sitio
-- **added:** compatibilidad con monitores de 1366 x 720px
+- **added:** compatibilidad con monitores de 1366 x 720px 
 
 
 ### 0.0.0 (2022-09-21): Preview Release (versión sólo para 1920 x 1080px)
