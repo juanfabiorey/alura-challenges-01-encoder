@@ -418,7 +418,7 @@ textarea {
 
 /* ------------------------------------------------------- */
 
-@media only screen and (min-width: 960px) and (max-width: 1366px){
+@media only screen and (min-width: 1025px) and (max-width: 1366px){
 
     .root-container {
         max-width: 960px;
@@ -547,4 +547,222 @@ textarea {
         padding: 20px 7px 7px;
         transform: scale(.7);
     }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+    .root-container {
+        /*height: 640px;*/
+        /*overflow: auto ;*/
+    }
+
+    .main-container {
+        height: 585px;
+    }
+
+    .header-container {
+        height: 10vh;
+    }
+    .header-logo {
+        padding-top: 25px;
+    }
+
+    .title-container {
+        padding-top: 54px;
+    }
+
+    .app-title {
+        font-size: 36px;
+    }
+
+    .input-form, .output-form {
+        /*padding-top: 16px;*/
+        padding-left: 25px;
+    }
+
+    .text-input, .text-output {
+        max-width: 100%;
+        width: 890px;
+        height: 65%;
+        padding: 25px;
+        font-size: 22px;
+    }
+
+    .button {
+        height: 48px;
+        width: 230px;
+        border-radius: 14px;
+        font-size: 20px;
+    }
+
+    .reset-option {
+        font-size: 18px;
+    }
+
+    .output-button-group {
+        padding-top: 10px;
+    }
+
+    .character-section {
+        visibility: hidden;
+    }
+
+
+    .footer-container {
+        padding-top: 25px;
+        background-size: 75%;
+    }
+    .image-oracle-alura-logo {
+        width: 200px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .custom-alert-bubble {
+        width: 45%;
+        height: 30%;
+    }
+
+    .custom-alert-text {
+        font-size: 22px;
+    }
+
+    .about-me-bubble {
+        width: 65%;
+    }
+    .about-me-bubble h1 {
+        text-align: center;
+        font-size: 35px;
+        padding: 0 20px;
+    }
+
+    .about-me-description {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .social-links-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github, .linkedin,  .email {
+        padding: 18px 14px 0;
+        /*transform: scale(.7);*/
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+    .main-container {
+        height: 800px;
+    }
+
+    .header-container {
+        height: 10vh;
+    }
+    .header-logo {
+        padding-top: 40px;
+        padding-left: 48px;
+        padding-right: 16px;
+    }
+
+    .image-alura-challenges {
+        width: 250px;
+    }
+
+    .title-container {
+        padding-top: 36px;
+    }
+
+    .app-title {
+        font-size: 30px;
+        text-align: right;
+        line-height: 24px;
+    }
+
+    .input-form, .output-form {
+        padding-left: 5px;
+    }
+
+    .text-input, .text-output {
+        max-width: 100%;
+        width: 675px;
+        height: 65%;
+        padding: 32px;
+        font-size: 22px;
+    }
+
+    .button {
+        height: 48px;
+        width: 230px;
+        border-radius: 14px;
+        font-size: 20px;
+    }
+
+    .reset-option {
+        font-size: 18px;
+    }
+
+    .output-button-group {
+        padding-top: 28px;
+    }
+
+    .character-section {
+        visibility: hidden;
+    }
+
+
+    .footer-container {
+        padding-top: 32px;
+        background-size: 75%;
+    }
+    .image-oracle-alura-logo {
+        width: 220px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .custom-alert-bubble {
+        width: 60%;
+        height: 22%;
+    }
+
+    .custom-alert-text {
+        font-size: 22px;
+    }
+
+    .about-me-bubble {
+        width: 87%;
+        height: 50%;
+    }
+    .about-me-bubble h1 {
+        text-align: center;
+        font-size: 35px;
+        padding: 0 20px;
+    }
+
+    .about-me-description {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .social-links-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .github, .linkedin,  .email {
+        padding: 18px 14px 0;
+        /*transform: scale(.7);*/
+    }
+
 }

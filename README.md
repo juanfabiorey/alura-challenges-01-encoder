@@ -84,6 +84,10 @@ Pueden chequear el _changelog_ de más abajo para enterarse de las últimas mejo
 
 ---
 
+### 0.0.3 (2022-09-26): Minor Changes
+- **added:** compatibilidad con tablets (1024 x 768px)
+
+
 ### 0.0.2 (2022-09-23): Minor Changes
 - **improvement:** ligeros cambios en el readme
 - **bug fix:** ahora el foco se dirige al botón 'cerrar' de las alertas emergentes

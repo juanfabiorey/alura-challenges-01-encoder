@@ -137,7 +137,6 @@ function decode(encodedString) {
     encodedString = encodedString.toLowerCase();
 
     for (let i = 0; i < cryptoKeys.length; i++) {
-        // add already decrypted verification
         if (encodedString.includes(cryptoKeys[i][1])) {
             encodedString = encodedString.replaceAll(
                 cryptoKeys[i][1],
