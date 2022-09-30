@@ -551,13 +551,12 @@ textarea {
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
 
-    .root-container {
-        /*height: 640px;*/
-        /*overflow: auto ;*/
+    body {
+        overflow-x: clip;
     }
 
     .main-container {
-        height: 585px;
+        height: 75vh;
     }
 
     .header-container {
@@ -660,7 +659,8 @@ textarea {
 @media only screen and (max-width: 768px) and (orientation: portrait) {
 
     .main-container {
-        height: 800px;
+        height: 76vh;
+        overflow-x: clip;
     }
 
     .header-container {
@@ -692,7 +692,7 @@ textarea {
 
     .text-input, .text-output {
         max-width: 100%;
-        width: 675px;
+        width: 73vh;
         height: 65%;
         padding: 32px;
         font-size: 22px;
