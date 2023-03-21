@@ -1,6 +1,6 @@
 # Challenge ONE | Lógica de programación - Encriptador de texto
 
-| [Visitar propuesta de Alura...](https://github.com/aluralatamprofes/One-Encriptador-Grupo3)                                                                                   | [Visitar mi propuesta...](https://juanfabiorey.github.io/alura-challenges-encoder/)                               |
+| [Visitar propuesta de Alura...](https://github.com/aluralatamprofes/One-Encriptador-Grupo3)                                                                                   | [Visitar mi propuesta...](https://juanfabiorey.github.io/alura-challenges-01-encoder/)                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | <img width="324" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png" title="Modelo tentativo" alt="Modelo tentativo"> | <img width="350"  src="https://iili.io/ib4Xvj.png" title="Interpretación personal" alt="Interpretación personal"> |
 
